@@ -22,4 +22,10 @@ public class MainTest {
         int val1 = 10, val2 = 9;
         Assert.assertEquals(calculator.minus(val1, val2), 1);
     }
+
+    @Test
+    public void testMutiple(){
+        int val1 = 2, val2 = 9;
+        Assert.assertEquals(calculator.multiple(val1, val2), 18);
+    }
 }
